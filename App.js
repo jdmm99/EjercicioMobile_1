@@ -22,21 +22,23 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
     
+    
   },
   box1:{
-    width: '90%',
+    width: '95%',
     height: 100,
     backgroundColor:'#169',
+    paddingStart: '10px'
   },
   box2:{
-    width: '90%',
+    width: '95%',
     height: 300,
     backgroundColor:'#500'
   },
   box3:{
-    width: '100%',
+    width: '95%',
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
   },
 
   box3_1:{
@@ -45,7 +47,7 @@ const styles = StyleSheet.create({
     height: 100,
   },
   box4:{
-    width: '90%',
+    width: '95%',
     height: 100,
     backgroundColor:'#698',
   }
